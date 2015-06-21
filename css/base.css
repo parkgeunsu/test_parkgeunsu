@@ -1,0 +1,29 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*font*/
+/*
+@font-face {
+	font-family:MEIRYOUI;
+	src:url('../font/MEIRYOUI.eot');
+	src: local('?'), url('../font/MEIRYOUI.woff') format('woff');
+}
+*/
+
+/* reset */
+body {font:12px 'Nanum Gothic', Arial, Helvetica, sans-serif; color:#666; line-height:1;}
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td {margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;font-size:1em;}
+ol, ul {overflow:hidden;list-style:none;}
+dl{overflow:hidden;}
+fieldset,img {border:none;}
+table {border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+a:link,a:visited,a:active {color:#666;text-decoration:none;}
+a:hover {color:#000}
+
+/* input-style */
+input.checkbox {width:13px;height:13px;vertical-align:top;}
+* html input {margin:-1px 0;}
+*:first-child+html input {margin:-1px 0}
+
+/* blind */
+caption,legend, .blind {position:absolute; width:0; height:0; overflow:hidden; font-size:0; line-height:0; visibility:hidden; z-index:-1;}

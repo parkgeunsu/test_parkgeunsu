@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body{background:#fff;overflow-y:scroll;overflow-x:hidden;}
+input{font-family:'Nanum Gothic', Arial, Helvetica, sans-serif;}
+/* wrap */
+#wrap{width:100%;height:100%;}
+/* main */
+#header{width:100%;background:#fff;border-top:4px solid #00528c;border-bottom:1px solid #ccc;}
+#header ._header{width:1000px;height:66px;margin:0 auto;overflow:hidden;}
+#header ._header h1{float:left;margin-right:50px;}
+#header .gnb{float:left;margin-top:5px;}
+#header .gnb ul{overflow:hidden;}
+#header .gnb ul li{float:left;background:url('../images/menu_bar.gif') no-repeat right center;}
+#header .gnb ul li.last{background:none;}
+#header .gnb ul li a{display:inline-block;padding:20px;}
+#header .top_menu{float:right;margin-top:15px;}
+#header .top_menu li{float:left;background:url('../images/top_menu_bar.gif') no-repeat right center;}
+#header .top_menu li.last{background:none;}
+#header .top_menu li a{display:inline-block;padding:10px;}
+
+.header_bottom{border-bottom:1px solid #ccc;}
+.header_bottom ._header_bottom{width:1000px;margin:0 auto;}
+.header_bottom ul{overflow:hidden;margin-left:227px;}
+.header_bottom ul li{float:left;padding:10px 0;margin-right:40px;color:#222;}
+.header_bottom ul li.last{margin-right:0;}
+.header_bottom ul li span{font-weight:bold;}
+.header_bottom ul li span.co1{color:#d93021;}
+.header_bottom ul li span.co2{color:#1561cf;}
+
+#contents{width:100%;}
+#contents .banner{width:100%;height:302px;background:url('../images/main_banner.jpg') no-repeat center 0;border-bottom:1px solid #ccc;}
+#contents ._contents{width:1000px;margin:0 auto;}
+#contents ._contents .con_left{overflow:hidden;float:left;width:648px;border-left:1px solid #ccc;border-right:1px solid #ccc;}
+#contents ._contents .con_left .con_leftT{height:223px;border-bottom:1px solid #ccc;padding:30px 20px 20px 20px;}
+#contents ._contents .con_left .con_leftT h3{float:left;font-size:24px;font-weight:bold;color:#444;margin-bottom:10px;}
+#contents ._contents .con_left .con_leftT .fund_deal{float:right;margin-top:5px;font-size:13px;}
+#contents ._contents .con_left .con_leftT .fund_rect{margin-left:10px;color:#1561cf;font-size:12px;vertical-align:middle;}
+#contents ._contents .con_left .con_leftT .fund_rect img{vertical-align:middle;}
+#contents ._contents .con_left .con_leftT .fund_info{position:relative;clear:both;margin-top:10px;width:613px;height:179px;background:url('../images/fund_info.jpg') no-repeat 0 0;}
+#contents ._contents .con_left .con_leftT .fund_date{position:absolute;right:10px;bottom:10px;font-weight:bold;color:#888;}
+#contents ._contents .con_left .con_leftB{position:relative;}
+#contents ._contents .con_left .con_leftB .box1{float:left;width:354px;}
+#contents ._contents .con_left .con_leftB .box1 table{width:100%;}
+#contents ._contents .con_left .con_leftB .box1 table .col1{width:33%;}
+#contents ._contents .con_left .con_leftB .box1 table .col2{width:34%;}
+#contents ._contents .con_left .con_leftB .box1 table .col3{width:34%;}
+#contents ._contents .con_left .con_leftB .box1 th{padding:15px 15px;border-bottom:1px solid #ccc;border-right:1px solid #ccc;background:#f3f7f8;font-size:13px;color:#222;text-align:center;}
+#contents ._contents .con_left .con_leftB .box1 td{padding:15px 15px;text-align:right;border-bottom:1px solid #ccc;border-right:1px solid #ccc;background:#fff;font-size:13px;color:#222;}
+#contents ._contents .con_left .con_leftB .box2{float:left;width:274px;padding:20px 10px;}
+#contents ._contents .con_left .con_leftB .box2 h3{font-size:18px;color:#222;font-weight:bold;margin-bottom:2px;}
+#contents ._contents .con_left .con_leftB .box2 h3 img{vertical-align:bottom;}
+#contents ._contents .con_left .con_leftB .box2 .scoll_box{border:1px solid #00528c;padding:15px;overflow-y:scroll;overflow-x:none;}
+#contents ._contents .con_left .con_leftB .box2 .scoll_box ul{overflow:hidden;}
+#contents ._contents .con_left .con_leftB .box2 .scoll_box li{position:relative;overflow:hidden;border-bottom:1px solid #ccc;padding:5px 0;line-height:15px;}
+#contents ._contents .con_left .con_leftB .box2 .scoll_box li span{font-size:11px;}
+#contents ._contents .con_left .con_leftB .box2 .scoll_box li span.floatL{margin-right:5px;}
+#contents ._contents .con_left .con_leftB .box2 .scoll_box li .co3{color:#00528c;}
+#contents ._contents .con_left .con_leftB .box2 .scoll_box .last{width:180px;letter-spacing:-1px;}
+
+#contents ._contents .con_right{float:left;width:349px;border-right:1px solid #ccc;}
+#contents ._contents .con_right .con_rightT{overflow:hidden;}
+#contents ._contents .con_right .con_rightT h3{text-align:center;font-weight:bold;padding:10px 0;border-bottom:1px solid #ccc;font-size:18px;color:#222;background:#f3f7f8;}
+#contents ._contents .con_right .con_rightT table{width:100%;}
+#contents ._contents .con_right .con_rightT table .fund_col1{width:20%;}
+#contents ._contents .con_right .con_rightT table .fund_col2{width:30%;}
+#contents ._contents .con_right .con_rightT table .fund_col3{width:20%;}
+#contents ._contents .con_right .con_rightT table .fund_col4{width:30%;}
+#contents ._contents .con_right .con_rightT table th{padding:12px 10px;text-align:center;font-weight:bold;border-bottom:1px solid #ccc;border-right:1px solid #ccc;}
+#contents ._contents .con_right .con_rightT table td{padding:12px 10px;text-align:center;font-weight:bold;border-bottom:1px solid #ccc;border-right:1px solid #ccc;}
+#contents ._contents .con_right .con_rightT table th.co1{font-size:14px;color:#1561cf;}
+#contents ._contents .con_right .con_rightT table th.co2{font-size:14px;color:#d93021;}
+#contents ._contents .con_right .con_rightT table th.last{border-right:none;}
+#contents ._contents .con_right .con_rightT table td.last{border-right:none;}
+#contents ._contents .con_right .con_rightB{overflow:hidden;padding:20px 15px;}	
+#contents ._contents .con_right .con_rightB h3{float:left;font-size:18px;color:#222;font-weight:bold;}
+#contents ._contents .con_right .con_rightB .more_bt{float:right;}
+#contents ._contents .con_right .con_rightB ul{clear:both;overflow:hidden;padding-top:20px;}
+#contents ._contents .con_right .con_rightB ul li{overflow:hidden;padding:8px 0 8px 10px;background:url('../images/bullet.gif') no-repeat left center;}
+#contents ._contents .con_right .con_rightB ul li .title{float:left;}
+#contents ._contents .con_right .con_rightB ul li .date{float:right;}
+
+.footer_menu{clear:both;width:100%;border-top:1px solid #00528c;border-bottom:1px solid #ccc;}
+.footer_menu ul{width:998px;margin:0 auto;border-right:1px solid #ccc;border-left:1px solid #ccc;}
+.footer_menu ul li{float:left;background:url('../images/menu_bar1.gif') no-repeat right center;}
+.footer_menu ul li.last{background:none;}
+.footer_menu ul li a{display:inline-block;padding:10px 40px;color:#666;}
+.footer_menu ul li a:hover{color:#00528c;}
+
+.bkx_description{overflow:hidden;width:1000px;margin:0 auto;padding:60px 20px;}
+.bkx_description h4{font-size:25px;font-weight:bold;color:#444;padding-bottom:20px;background:url('../images/contents_bar.gif') no-repeat 0 bottom;}
+.description{clear:both;padding:20px 0;}
+.description dl{float:left;width:450px;margin-right:40px;}
+.description dl dt{font-size:16px;font-weight:bold;color:#00528c;margin-bottom:10px;}
+.description dl dd{font-size:14px;color:#666;font-weight:bold;line-height:18px;}
+<h3 class="hide">비트코인 설명</h3>
+		<div class="bkx_description">
+			<h4>비트코인이란 무엇인가요?</h4>
+			<div class="description">
+				<dl>
+					<dt>누구나 쉽게 송금 / 거래</dt>
+					<dd>은행 계좌없이도 인터넷만 연결되어 있다면 상대방에게 비트코인을 송금할 수 있습니다.</dd>
+				</dl>
